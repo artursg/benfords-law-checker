@@ -7,7 +7,7 @@ int main(int argc, char ** argv)
 {
   if (argc != 2)
     {
-      printf("Bretfort law checker.\nUsage: ./bratfort [filename]\n");
+      printf("Benford law checker.\nUsage: ./benford [filename]\n");
       return -1;
     }
   FILE * f = fopen(argv[1], "r");
@@ -21,7 +21,6 @@ int main(int argc, char ** argv)
   int total = 0;
   while((c = fgetc(f)) != EOF)
     {
-      printf("%d", c);
       if (c >= '0' && c <= '9')
 	{
 	  accumulator[c - '0'] += 1;

@@ -1,2 +1,2 @@
-# bratfort-law-checker
-Utility to check Bratfort law.
+# benfords-law-checker
+Utility to check Benford's law.

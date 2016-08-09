@@ -1,4 +1,5 @@
-bratfort:
-	gcc main.c -lc -o bratfort
+benfords_check:
+	gcc main.c -lc -o benfords_check
 clean:
-	rm bratfort
+	rm benfords_check
+
